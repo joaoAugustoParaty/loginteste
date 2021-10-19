@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login com hierarquia</title>
+    <script type="text/javascript" src="script/jquery.js"></script>
+    <script type="text/javascript" src="script/acesso.js"></script>
 </head>
 <body>
-    <form method="POST" action="acoes/login.php">
-        <input type="text" name="email" />
-        <input type="password" name="senha" />
-        <input type="submit" value="entrar" />
+
+    <div id="mensagem">
+
+
+    </div>
+    <form id="formularioLogin">
+        <input type="text" name="email" id="email" />
+        <input type="password" name="senha" id="senha" />
+
+        <button id="btnEntrar">Entrar</button>
     </form>
 </body>
 </html>
